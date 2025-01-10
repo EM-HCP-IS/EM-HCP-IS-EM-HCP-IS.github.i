@@ -8,11 +8,15 @@
     <title>1st International Symposium on Engineering Approaches to Human-Machine-Object Integrated Intelligent Software</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+
+            body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            min-height: 100vh; /* Ensures the body takes full height */
+            display: flex;
+            flex-direction: column;
         }
         header {
             background-color: #004C97;
@@ -28,6 +32,7 @@
             width: 80%;
             margin: 0 auto;
             padding: 20px;
+            flex-grow: 1; /* Allows container to take up space before footer */
         }
         h2, h3 {
             color: #004C97;
@@ -51,15 +56,14 @@
             background-color: #004C97;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
+            margin-top: 40px; /* Adds space above the footer */
         }
         a {
             color: #004C97;
             text-decoration: none;
         }
+
     </style>
 </head>
 <body>
